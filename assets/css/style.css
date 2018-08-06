@@ -1,0 +1,47 @@
+body{
+    background-size: cover !important;
+    background-attachment: fixed !important; 
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: black !important;
+    margin-top: 50px;
+}
+#strike{
+text-decoration: line-through;
+}
+
+#quote{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600
+}
+
+.wea-zoom {
+    opacity: 0.3;
+    background-color: lightgrey;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black }
+
+.wea-zoom:hover {
+    transform: scale(1.5); 
+    opacity: 1.0;
+}
+
+.todoGrp{
+    display: inline-block;
+    opacity: 0.7;
+    background-color: grey;
+    border: 2px solid black;
+    font-weight: bold; 
+}
+
+.desc-form{
+    display: inline-block;
+}
+
+.task-box{
+    border: 2px dotted black;
+}

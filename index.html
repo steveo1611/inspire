@@ -1,0 +1,69 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Inspire</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="body">
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+					<div class="col-md-11 d-flex flex-column align-items-start">
+							<form onsubmit="app.controllers.todoController.addTodoFromForm(event)" class="desc-form">
+								<input type="text" name="task" placeholder="task description">
+								<button type="submit">Submit</button>
+							</form>
+							<div class="todoGrp" id="todoCount">
+		
+							</div>
+							<div class="todoGrp" id="todoListH">
+		
+							</div>
+						</div>
+				<div class="col-md-1">
+					<div class="wea-zoom" id="weather">
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="clockbox" style="text-align: center;"></div>
+		<div class="container-fluid" id="todo">
+			<div class="row">
+			</div>
+		</div>
+	</section>
+	<footer>
+		<nav class="navbar fixed-bottom navbar-sight bg-light">
+			<div class="container-fluid d-flex justify-content-center">
+				<p id="aQuote"></p>
+			</div>
+		</nav>
+	</footer>
+
+
+	<!--JS Libraries-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script> -->
+	<!--Services-->
+	<script src="app/components/weather/weather-service.js"></script>
+	<script src="app/components/image/image-service.js"></script>
+	<script src="app/components/quote/quote-service.js"></script>
+	<script src="app/components/todo/todo-service.js"></script>
+
+	<!--Controllers-->
+	<script src="app/components/weather/weather-controller.js"></script>
+	<script src="app/components/image/image-controller.js"></script>
+	<script src="app/components/quote/quote-controller.js"></script>
+	<script src="app/components/todo/todo-controller.js"></script>
+
+	<!--Initialize App-->
+	<script src="app/init.js"></script>
+</body>
+
+</html>
