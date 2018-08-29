@@ -4,6 +4,8 @@ function ImageService() {
 	// var apiUrl = url + encodeURIComponent(url2)
 	var apiUrl = url2
 
+	var loadingdiv = document.getElementById('loading')
+	loadingdiv.style.display = "block";
 	this.getImage = function (cb) {
 		// ^^^^^^^ How do you call this function?
 		return $.get(apiUrl, function (res) {

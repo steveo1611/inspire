@@ -48,3 +48,8 @@ text-decoration: line-through;
 #clockbox {
     font-size: 2rem;
 }
+
+#loading {
+ display: block;
+ text-align: center;
+}

@@ -4,8 +4,5 @@ function QuoteController(){
 
 	qs.getQuote(function(quote){
 		document.getElementById('aQuote').innerText = `${quote.quote} - ${quote.author}`
-		
 	})
-
-
-} //end bracket
+}

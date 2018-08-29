@@ -3,13 +3,14 @@ function ImageController() {
 
 
   function drawImage(res){
-
-  var imgUrl = "url('"+ res.url + "')" 
-  document.body.style.background = imgUrl
+		var loadingdiv = document.getElementById('loading')
+		loadingdiv.style.display = "none";
+    var imgUrl = "url('"+ res.url + "')" 
+    document.body.style.background = imgUrl
   }
 
   imgSer.getImage(drawImage)
 
-} // end tag
+}
 
 

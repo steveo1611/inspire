@@ -11,6 +11,7 @@ function WeatherController(){
 		var wArr = weather.weather[i]
 	}
 			template = `
+			
 			<h5>${fTemp}&degF/${cTemp}&degC</h5>
 			<img src="http://openweathermap.org/img/w/${wArr.icon}.png">
 			<h5> ${wArr.description}</h5>
