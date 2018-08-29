@@ -45,3 +45,6 @@ text-decoration: line-through;
 .task-box{
     border: 2px dotted black;
 }
+#clockbox {
+    font-size: 2rem;
+}

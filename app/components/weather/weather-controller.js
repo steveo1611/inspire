@@ -1,6 +1,6 @@
 function WeatherController(){
-	var wc = this;
-	var weatherService = new WeatherService();
+	var wc = this
+	var weatherService = new WeatherService()
 	
 	weatherService.getWeather(function(weather){
 
