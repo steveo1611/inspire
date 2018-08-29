@@ -13,29 +13,24 @@
 	<section>
 		<div class="container-fluid">
 			<div class="row">
-					<div class="col-md-11 d-flex flex-column align-items-start">
+					<div class="col-md-4 d-flex flex-column align-items-start">
 							<form onsubmit="app.controllers.todoController.addTodoFromForm(event)" class="desc-form">
 								<input type="text" name="task" placeholder="task description">
 								<button type="submit">Submit</button>
 							</form>
-							<div class="todoGrp" id="todoCount">
-							</div>
-							<div class="todoGrp" id="todoListH">
-							</div>
-						</div>
-				<div class="col-md-1">
+							<div class="todoGrp" id="todoCount"> </div>
+							<div class="todoGrp" id="todoListH"> </div>
+					</div>
+					<div class="col-md-6" id="clockbox" style="text-align: center"></div>
+
+				<div class="col-offset-1 col-md-1">
 					<div class="wea-zoom" id="weather">
 						<h3></h3>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="clockbox" style="text-align: center;"></div>
-		<div class="container-fluid" id="todo">
-			<div class="row">
-			</div>
-		</div>
-	</section>
+</section>
 	<footer>
 		<nav class="navbar fixed-bottom navbar-sight bg-light">
 			<div class="container-fluid d-flex justify-content-center">

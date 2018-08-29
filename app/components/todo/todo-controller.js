@@ -45,7 +45,7 @@ function TodoController() {
 		}
 		
 		
-		var cTemplate = `<h3>${taskSum} tasks left todo</h3>`
+		var cTemplate = `<h3> ${taskSum} tasks left todo </h3>`
 		document.getElementById('todoListH').innerHTML = template
 		document.getElementById('todoCount').innerHTML = cTemplate
 	}

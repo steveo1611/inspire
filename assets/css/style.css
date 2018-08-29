@@ -47,6 +47,9 @@ text-decoration: line-through;
 }
 #clockbox {
     font-size: 2rem;
+    background-color: darkgrey;
+    opacity: 0.8;
+    display: inline-block;
 }
 
 #loading {
