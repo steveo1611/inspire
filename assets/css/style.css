@@ -1,58 +1,64 @@
-body{
-    background-size: cover !important;
-    background-attachment: fixed !important; 
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-color: black !important;
-    margin-top: 50px;
+body {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-color: black !important;
+  margin-top: 50px;
 }
-#strike{
-text-decoration: line-through;
+#strike {
+  text-decoration: line-through;
 }
 
-#quote{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600
+#quote {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
 }
 
 .wea-zoom {
-    opacity: 0.3;
-    background-color: lightgrey;
-    transition: transform .2s;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border: 2px solid black }
+  opacity: 0.3;
+  background-color: lightgrey;
+  transition: transform 0.2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
 
 .wea-zoom:hover {
-    transform: scale(1.5); 
-    opacity: 1.0;
+  transform: scale(1.5);
+  opacity: 1;
 }
 
-.todoGrp{
-    display: inline-block;
-    opacity: 0.7;
-    background-color: grey;
-    border: 2px solid black;
-    font-weight: bold; 
+.todoGrp {
+  display: inline-block;
+  opacity: 0.7;
+  background-color: grey;
+  border: 2px solid black;
+  font-weight: bold;
 }
 
-.desc-form{
-    display: inline-block;
+.desc-form {
+  display: inline-block;
 }
 
-.task-box{
-    border: 2px dotted black;
+.task-box {
+  border: 2px dotted black;
 }
 #clockbox {
-    font-size: 2rem;
-    background-color: darkgrey;
-    opacity: 0.8;
-    display: inline-block;
+  font-size: 2rem;
+  background-color: darkgrey;
+  opacity: 0.8;
+  display: inline-block;
 }
 
 #loading {
- display: block;
- text-align: center;
+  display: block;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 80px 125px;
 }
